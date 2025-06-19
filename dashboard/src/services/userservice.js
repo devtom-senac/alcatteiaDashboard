@@ -29,3 +29,4 @@ export async function removeTeamMember(id) {
   if (!response.ok) throw new Error("Erro ao remover membro");
   return response.json();
 }
+
